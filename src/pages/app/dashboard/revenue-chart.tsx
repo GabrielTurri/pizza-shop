@@ -61,6 +61,7 @@ export function RevenueChart() {
                 dataKey="revenue"
                 stroke={colors.violet['400']}
               />
+              <CartesianGrid vertical={false} className="stroke-muted" />
             </LineChart>
           </ResponsiveContainer>
         </CardContent>
